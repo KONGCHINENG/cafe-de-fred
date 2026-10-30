@@ -1,0 +1,860 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Café de Fred | Breakfast &amp; Crêpes on Earls Court Road, London W8</title>
+<meta name="description" content="Family-run café at 10A Earls Court Road, Kensington. Full English breakfasts, French crêpes and galettes, jacket potatoes and fresh juices. Rated 4.8 on Google. Open Mon to Sat from 7am.">
+<link rel="canonical" href="https://cafedefred.example/">
+<meta name="theme-color" content="#F4F4F0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0F1626" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Café de Fred">
+<meta property="og:title" content="Café de Fred | Breakfast &amp; Crêpes, Earls Court Road">
+<meta property="og:description" content="Full English, French crêpes and a warm hello at the door. 10A Earls Court Road, London W8. Rated 4.8 on Google.">
+<meta property="og:image" content="image/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Café de Fred | Breakfast &amp; Crêpes, Earls Court Road">
+<meta name="twitter:description" content="Full English, French crêpes and a warm hello at the door. Rated 4.8 on Google.">
+<meta name="twitter:image" content="image/og.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23C8282E'/%3E%3Ctext x='32' y='44' font-family='Arial' font-weight='700' font-size='34' fill='%23fff' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@500;600;700;800&family=Funnel+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+<link rel="preload" as="image" href="image/room-1200.jpg" imagesrcset="image/room-720.jpg 720w, image/room-1200.jpg 1200w" imagesizes="(min-width: 960px) 44vw, 92vw">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CafeOrCoffeeShop",
+  "name": "Café de Fred",
+  "image": "image/og.jpg",
+  "telephone": "+447960722425",
+  "servesCuisine": ["British", "French", "Breakfast"],
+  "priceRange": "££",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "10A Earls Court Road",
+    "addressLocality": "London",
+    "postalCode": "W8 6EA",
+    "addressCountry": "GB"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 51.4984819, "longitude": -0.1985148 },
+  "hasMap": "https://maps.app.goo.gl/B7uVRR8qH3tuVngc6",
+  "sameAs": ["https://www.facebook.com/cafedefred/"],
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:00", "closes": "17:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "17:00" }
+  ],
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "748" }
+}
+</script>
+<style>
+:root {
+  --bg: #F4F4F0;
+  --surface: #FFFFFF;
+  --tint: #E9EAE6;
+  --ink: #16244A;
+  --ink-soft: #4E5872;
+  --line: rgba(22, 36, 74, .14);
+  --accent: #C8282E;
+  --accent-ink: #FFFFFF;
+  --accent-hover: #A91F25;
+  --accent-text: #C8282E;
+  --veg: #17804A;
+  --brick: #9C4A3B;
+  --navy: #16244A;
+  --on-navy: #ECEDF2;
+  --on-navy-soft: #B7BDD0;
+  --shadow: 0 1px 2px rgba(22, 36, 74, .06), 0 12px 32px -12px rgba(22, 36, 74, .22);
+  --radius: 14px;
+  --ease-out: cubic-bezier(.23, 1, .32, 1);
+  --display: "Funnel Display", ui-sans-serif, system-ui, sans-serif;
+  --sans: "Funnel Sans", ui-sans-serif, system-ui, sans-serif;
+  --wrap: 1200px;
+  --gutter: clamp(16px, 4vw, 40px);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0F1626;
+    --surface: #172036;
+    --tint: #131C30;
+    --ink: #ECEDF2;
+    --ink-soft: #A3AAC0;
+    --line: rgba(236, 237, 242, .14);
+    --accent: #D4343A;
+    --accent-ink: #FFFFFF;
+    --accent-hover: #BF2A30;
+    --accent-text: #FF7A7E;
+    --veg: #5FD08E;
+    --brick: #D0806F;
+    --navy: #0A101D;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 16px 40px -16px rgba(0,0,0,.6);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0F1626; --surface: #172036; --tint: #131C30; --ink: #ECEDF2; --ink-soft: #A3AAC0;
+  --line: rgba(236, 237, 242, .14); --accent: #D4343A; --accent-hover: #BF2A30; --accent-text: #FF7A7E; --veg: #5FD08E; --brick: #D0806F; --navy: #0A101D;
+  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 16px 40px -16px rgba(0,0,0,.6); color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-top: 80px; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 400 17px/1.6 var(--sans); -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+}
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; }
+h1, h2, h3 { font-family: var(--display); font-weight: 700; line-height: 1.05; letter-spacing: -.02em; margin: 0; text-wrap: balance; }
+p { margin: 0; text-wrap: pretty; }
+.wrap { width: 100%; max-width: var(--wrap); margin-inline: auto; padding-inline: var(--gutter); }
+.skip { position: absolute; left: 12px; top: -60px; background: var(--ink); color: var(--bg); padding: 10px 14px; border-radius: 8px; z-index: 100; }
+.skip:focus { top: 12px; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* Buttons */
+.btn {
+  --h: 52px;
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: var(--h); padding: 0 24px; border-radius: 999px; border: 1.5px solid transparent;
+  font: 600 16px/1 var(--sans); text-decoration: none; white-space: nowrap; cursor: pointer;
+  transition: background-color .2s var(--ease-out), color .2s var(--ease-out), border-color .2s var(--ease-out), transform .16s var(--ease-out);
+  -webkit-tap-highlight-color: transparent; user-select: none;
+}
+.btn:active { transform: scale(.97); }
+.btn i { font-size: 20px; }
+.btn img { width: 18px; height: 18px; }
+.btn-primary { background: var(--accent); color: var(--accent-ink); }
+.btn-ghost { border-color: var(--line); color: var(--ink); background: transparent; }
+@media (hover: hover) and (pointer: fine) {
+  .btn-primary:hover { background: var(--accent-hover); }
+  .btn-ghost:hover { border-color: var(--ink); }
+}
+.btn-sm { --h: 44px; padding: 0 18px; font-size: 15px; }
+
+/* Nav */
+.nav {
+  position: sticky; top: 0; z-index: 40;
+  background: color-mix(in srgb, var(--bg) 86%, transparent);
+  backdrop-filter: saturate(160%) blur(14px); -webkit-backdrop-filter: saturate(160%) blur(14px);
+  border-bottom: 1px solid transparent; transition: border-color .3s var(--ease-out);
+}
+.nav.is-stuck { border-bottom-color: var(--line); }
+.nav .wrap { display: flex; align-items: center; gap: 24px; height: 68px; }
+::selection { background: var(--accent); color: #fff; }
+html { scrollbar-color: color-mix(in srgb, var(--ink) 35%, transparent) var(--bg); accent-color: var(--accent); }
+.brand { white-space: nowrap; flex: none; display: inline-flex; align-items: baseline; gap: 2px; text-decoration: none; font: 800 22px/1 var(--display); letter-spacing: -.03em; }
+.brand em { font-style: normal; color: var(--accent-text); }
+.status { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; color: var(--ink-soft); white-space: nowrap; }
+.status::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--ink-soft); }
+.status.open::before { background: #1F9D55; box-shadow: 0 0 0 4px color-mix(in srgb, #1F9D55 22%, transparent); }
+.nav-links { display: flex; gap: 28px; margin-left: auto; list-style: none; padding: 0; margin-block: 0; }
+.nav-links a { text-decoration: none; font-weight: 500; font-size: 15px; color: var(--ink-soft); transition: color .2s var(--ease-out); padding: 10px 0; }
+.nav-links a:hover { color: var(--ink); }
+.nav .btn { margin-left: 4px; }
+@media (max-width: 860px) {
+  .nav-links { display: none; }
+  .nav .btn { margin-left: auto; }
+}
+@media (max-width: 420px) {
+  .nav .wrap { gap: 14px; }
+  .nav .status span.long { display: none; }
+  .nav .btn { width: 44px; padding: 0; font-size: 0; gap: 0; }
+  .nav .btn img { width: 20px; height: 20px; }
+}
+
+/* Hero */
+.hero { padding: clamp(28px, 5vw, 64px) 0 clamp(48px, 7vw, 96px); }
+.hero .wrap { display: grid; grid-template-columns: 1.05fr .95fr; gap: clamp(32px, 5vw, 72px); align-items: center; }
+.eyebrow { font-size: 13px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--brick); margin-bottom: 20px; }
+.hero h1 { font-size: clamp(44px, 6.2vw, 84px); font-weight: 800; letter-spacing: -.035em; line-height: .98; }
+.hero h1 .red { display: block; color: var(--accent-text); }
+@media (max-width: 480px) { .hero .ctas .btn, .visit .ctas .btn { flex: 1 1 100%; } }
+.hero .lede { margin-top: 24px; font-size: clamp(18px, 1.6vw, 21px); color: var(--ink-soft); max-width: 34ch; }
+.hero .ctas { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 36px; }
+.hero-art { position: relative; margin-left: auto; width: 100%; max-width: 520px; }
+.hero-art .room { aspect-ratio: 3 / 4; width: 86%; margin-left: auto; object-fit: cover; border-radius: var(--radius); box-shadow: var(--shadow); }
+.hero-art figure { position: absolute; left: 0; bottom: -28px; width: 46%; margin: 0; padding: 8px 8px 12px; background: var(--surface); border-radius: 12px; box-shadow: var(--shadow); transform: rotate(-3deg); }
+.hero-art figure img { border-radius: 6px; aspect-ratio: 1; object-fit: cover; width: 100%; }
+.hero-art figcaption { font-size: 13px; color: var(--ink-soft); padding: 8px 4px 0; }
+@media (max-width: 860px) {
+  .hero .wrap { grid-template-columns: 1fr; }
+  .hero-art { max-width: 460px; margin: 8px auto 24px; }
+}
+
+/* Facts strip */
+.facts { border-block: 1px solid var(--line); }
+.facts .wrap { display: grid; grid-template-columns: repeat(3, 1fr); }
+.fact { padding: 22px 0; display: flex; gap: 14px; align-items: center; }
+.fact + .fact { padding-left: 28px; border-left: 1px solid var(--line); }
+.fact i { font-size: 26px; color: var(--accent-text); }
+.fact strong { display: block; font: 700 18px/1.2 var(--display); }
+.fact span { font-size: 14px; color: var(--ink-soft); }
+a.fact { text-decoration: none; transition: color .2s var(--ease-out); }
+@media (hover: hover) and (pointer: fine) { a.fact:hover strong { color: var(--accent-text); } }
+@media (max-width: 900px) {
+  .facts .wrap { grid-template-columns: 1fr; }
+  .fact + .fact { padding-left: 0; border-left: 0; border-top: 1px solid var(--line); }
+  .fact { padding: 16px 0; }
+}
+
+section { padding-block: clamp(72px, 10vw, 128px); }
+.h2 { font-size: clamp(34px, 4.4vw, 56px); letter-spacing: -.03em; }
+.intro { margin-top: 18px; font-size: 18px; color: var(--ink-soft); max-width: 56ch; }
+
+/* Story */
+.story .wrap { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(32px, 6vw, 96px); align-items: center; }
+.story-pics { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.story-pics img { border-radius: var(--radius); width: 100%; object-fit: cover; }
+.story-pics .a { grid-column: 1 / -1; aspect-ratio: 4 / 3; }
+.story-pics .b, .story-pics .c { aspect-ratio: 3 / 4; }
+.story blockquote { position: relative; margin: 36px 0 0; padding-top: 34px; font: 600 23px/1.35 var(--display); letter-spacing: -.01em; max-width: 30ch; }
+.story blockquote::before { content: "“"; position: absolute; top: -14px; left: -4px; font: 800 80px/1 var(--display); color: var(--accent-text); }
+.story blockquote cite { display: block; margin-top: 10px; font: 400 14px/1.4 var(--sans); color: var(--ink-soft); font-style: normal; }
+.story p.body { margin-top: 20px; color: var(--ink-soft); max-width: 52ch; }
+.todo {
+  display: block; margin-top: 24px; padding: 14px 16px; border: 1.5px dashed color-mix(in srgb, var(--brick) 60%, transparent);
+  border-radius: 10px; font-size: 14px; color: var(--ink-soft); max-width: 52ch;
+}
+.todo b { color: var(--brick); font-weight: 600; }
+@media (max-width: 860px) { .story .wrap { grid-template-columns: 1fr; } .story-pics { order: 2; } }
+
+/* Signature dishes */
+.dishes { background: var(--tint); }
+.dish-grid { margin-top: 48px; display: grid; grid-template-columns: repeat(6, 1fr); gap: 16px; }
+.dish { position: relative; grid-column: span 2; background: var(--surface); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 1px 2px rgba(22,36,74,.05); }
+.dish:nth-child(1), .dish:nth-child(2) { grid-column: span 3; }
+.dish .ph-wrap { overflow: hidden; aspect-ratio: 4 / 3; }
+.dish img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s var(--ease-out); }
+@media (hover: hover) and (pointer: fine) { .dish:hover img { transform: scale(1.04); } }
+.dish .meta { padding: 18px 20px 20px; display: flex; justify-content: space-between; gap: 16px; align-items: baseline; }
+.dish h3 { font-size: 21px; letter-spacing: -.015em; }
+.dish p { font-size: 15px; color: var(--ink-soft); margin-top: 6px; }
+.price { font: 700 19px/1 var(--display); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.price.ask { font: 500 14px/1.2 var(--sans); color: var(--ink-soft); }
+@media (max-width: 900px) {
+  .dish-grid { grid-template-columns: 1fr 1fr; }
+  .dish, .dish:nth-child(1), .dish:nth-child(2) { grid-column: span 1; }
+  .dish:nth-child(1) { grid-column: 1 / -1; }
+}
+@media (max-width: 560px) {
+  .dish-grid { grid-template-columns: 1fr; }
+  .dish:nth-child(1) { grid-column: auto; }
+}
+
+/* Menu */
+.menu-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 24px; }
+.tabs { position: sticky; top: 68px; z-index: 20; margin-top: 40px; padding: 10px 0; background: var(--bg); }
+.tablist { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+.tablist::-webkit-scrollbar { display: none; }
+.tab {
+  flex: none; min-height: 44px; padding: 0 20px; border-radius: 999px; border: 1.5px solid var(--line);
+  background: transparent; color: var(--ink); font: 600 15px/1 var(--sans); cursor: pointer;
+  transition: background-color .2s var(--ease-out), color .2s var(--ease-out), border-color .2s var(--ease-out), transform .16s var(--ease-out);
+}
+.tab:active { transform: scale(.97); }
+.tab[aria-selected="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+@media (hover: hover) and (pointer: fine) { .tab[aria-selected="false"]:hover { border-color: var(--ink); } }
+.panel { padding-top: 24px; }
+.panel[hidden] { display: none; }
+.panel.enter { animation: panelIn .2s var(--ease-out); }
+@keyframes panelIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.groups { display: grid; grid-template-columns: 1fr 1fr; gap: 24px 64px; }
+.group { padding-top: 28px; }
+.group h3 { font-size: 24px; display: flex; align-items: baseline; gap: 12px; }
+.group h3 small { font: 500 14px/1 var(--sans); color: var(--ink-soft); letter-spacing: 0; }
+.group .note { font-size: 14px; color: var(--ink-soft); margin-top: 8px; }
+.items { list-style: none; padding: 0; margin: 16px 0 0; }
+.item { display: grid; grid-template-columns: 1fr auto; gap: 4px 20px; padding: 14px 0; }
+.item + .item { border-top: 1px dashed var(--line); }
+.item .name { font-weight: 600; }
+.item .desc { grid-column: 1; font-size: 15px; color: var(--ink-soft); }
+.item .price { grid-row: 1; grid-column: 2; font-size: 17px; }
+.item .price.ask { font-size: 13px; }
+.v { display: inline-block; margin-left: 6px; padding: 1px 6px; border-radius: 4px; font: 600 11px/1.5 var(--sans); background: color-mix(in srgb, #1F9D55 16%, transparent); color: var(--veg); vertical-align: 2px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; list-style: none; padding: 0; }
+.chips li { padding: 8px 14px; border-radius: 999px; background: var(--surface); border: 1px solid var(--line); font-size: 15px; }
+.menu-foot { margin-top: 40px; font-size: 14px; color: var(--ink-soft); }
+@media (max-width: 820px) { .groups { grid-template-columns: 1fr; gap: 8px; } }
+
+/* Whiteboard */
+.board { padding-top: 0; padding-bottom: 0; }
+.board-card { display: grid; grid-template-columns: 1fr 1.1fr; gap: 0; background: var(--navy); color: var(--on-navy); border-radius: calc(var(--radius) + 6px); overflow: hidden; }
+.board-card img { width: 100%; height: 100%; object-fit: cover; object-position: 30% 40%; min-height: 360px; }
+.board-body { padding: clamp(28px, 4vw, 56px); }
+.board-body .h2 { color: #fff; }
+.board-body > p { color: var(--on-navy-soft); margin-top: 14px; }
+.specials { list-style: none; padding: 0; margin: 28px 0 0; }
+.specials li { display: flex; justify-content: space-between; gap: 20px; padding: 14px 0; border-top: 1px solid rgba(255,255,255,.14); font-weight: 500; }
+.specials li .price { color: #fff; }
+.specials li .price.ask { color: var(--on-navy-soft); }
+@media (max-width: 860px) { .board-card { grid-template-columns: 1fr; } .board-card img { min-height: 0; aspect-ratio: 4 / 3; } }
+
+/* Reviews / pin map */
+.pins .wrap > .top { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: end; }
+.score { text-align: right; }
+.score strong { display: block; font: 800 64px/1 var(--display); letter-spacing: -.04em; }
+.score .stars { color: var(--accent-text); letter-spacing: 2px; font-size: 18px; }
+.score span { font-size: 14px; color: var(--ink-soft); }
+.reviews { margin-top: 48px; display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 16px; }
+.review { margin: 0; padding: 28px; background: var(--surface); border-radius: var(--radius); display: flex; flex-direction: column; gap: 20px; border: 1px solid var(--line); }
+.review:first-child { background: var(--accent); color: #fff; border-color: transparent; }
+.review:first-child figcaption span { color: #fff; }
+.review blockquote { margin: 0; font: 500 19px/1.45 var(--display); letter-spacing: -.005em; }
+.review:first-child blockquote { font-size: 23px; }
+.review figcaption { margin-top: auto; font-size: 15px; font-weight: 600; }
+.review figcaption span { display: block; font-weight: 400; font-size: 13px; color: var(--ink-soft); }
+.reviews-link { margin-top: 28px; display: inline-flex; align-items: center; gap: 8px; font-weight: 600; text-decoration: none; border-bottom: 1.5px solid currentColor; padding-bottom: 2px; }
+.reviews-link i { transition: transform .2s var(--ease-out); }
+.reviews-link:hover i { transform: translateX(3px); }
+@media (max-width: 900px) {
+  .reviews { grid-template-columns: 1fr; }
+  .pins .wrap > .top { grid-template-columns: 1fr; }
+  .score { text-align: left; }
+}
+
+/* Gallery */
+.gallery { padding-top: 0; }
+.gal { margin-top: 40px; display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 180px; gap: 12px; }
+.gal figure { margin: 0; overflow: hidden; border-radius: 12px; background: var(--tint); }
+.gal img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s var(--ease-out); }
+@media (hover: hover) and (pointer: fine) { .gal figure:hover img { transform: scale(1.04); } }
+.gal .t { grid-row: span 2; }
+.gal .w { grid-column: span 2; }
+@media (max-width: 760px) { .gal { grid-template-columns: 1fr 1fr; grid-auto-rows: 150px; } }
+
+/* Visit */
+.visit { background: var(--tint); }
+.visit .wrap { display: grid; grid-template-columns: 1fr 1.15fr; gap: clamp(32px, 5vw, 72px); align-items: start; }
+.addr { margin-top: 20px; font-size: 19px; font-style: normal; line-height: 1.5; }
+.hours { margin-top: 32px; width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.hours caption { text-align: left; font: 700 18px/1 var(--display); padding-bottom: 12px; }
+.hours th, .hours td { padding: 11px 0; border-top: 1px solid var(--line); text-align: left; font-weight: 400; }
+.hours td { text-align: right; }
+.hours tr.today th, .hours tr.today td { font-weight: 700; color: var(--accent-text); }
+.hours tr.today th::after { content: " · today"; font-weight: 500; font-size: 13px; }
+.visit .ctas { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+.map { position: relative; border-radius: calc(var(--radius) + 6px); overflow: hidden; aspect-ratio: 4 / 3.4; background: var(--surface); box-shadow: var(--shadow); }
+.map iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+@media (max-width: 860px) { .visit .wrap { grid-template-columns: 1fr; } .map { aspect-ratio: 4 / 3.6; } }
+
+/* Footer */
+.foot { background: var(--navy); color: var(--on-navy); padding: clamp(64px, 8vw, 104px) 0 calc(36px + env(safe-area-inset-bottom)); }
+.foot-top { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 40px; }
+.foot h2 { font-size: clamp(30px, 3.6vw, 44px); color: #fff; }
+.foot p { color: var(--on-navy-soft); margin-top: 12px; max-width: 38ch; }
+.foot h3 { font: 600 13px/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--on-navy-soft); margin-bottom: 16px; }
+.foot ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
+.foot ul a { text-decoration: none; display: inline-flex; align-items: center; gap: 10px; min-height: 36px; transition: color .2s var(--ease-out); }
+.foot ul a:hover { color: #fff; text-decoration: underline; text-underline-offset: 4px; }
+.foot ul img { width: 18px; height: 18px; }
+.foot ul i { font-size: 20px; }
+.foot .ctas { margin-top: 24px; }
+.wordmark { margin-top: clamp(48px, 9vw, 120px); font: 800 min(calc((100vw - 2 * var(--gutter)) / 5.75), 196px)/.86 var(--display); letter-spacing: -.055em; color: #fff; white-space: nowrap; overflow: hidden; }
+.wordmark em { font-style: normal; color: var(--accent-text); }
+.legal { margin-top: 28px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-size: 13px; color: var(--on-navy-soft); }
+@media (max-width: 860px) { .foot-top { grid-template-columns: 1fr 1fr; } .foot-top > div:first-child { grid-column: 1 / -1; } }
+
+/* Mobile action bar */
+.bar { display: none; }
+@media (max-width: 760px) {
+  .bar {
+    position: fixed; z-index: 50; left: 12px; right: 12px; bottom: calc(12px + env(safe-area-inset-bottom));
+    display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding: 8px; border-radius: 999px;
+    background: color-mix(in srgb, var(--surface) 92%, transparent); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+    box-shadow: var(--shadow); border: 1px solid var(--line);
+    transform: translateY(140%); visibility: hidden; transition: transform .4s var(--ease-out), visibility 0s linear .4s;
+  }
+  .bar.show { transform: none; visibility: visible; transition: transform .4s var(--ease-out), visibility 0s; }
+  .bar .btn { --h: 48px; padding: 0 12px; }
+  .foot { padding-bottom: calc(110px + env(safe-area-inset-bottom)); }
+}
+
+/* Reveal */
+@media (prefers-reduced-motion: no-preference) {
+  .js .reveal { opacity: 0; transform: translateY(12px); transition: opacity .6s var(--ease-out), transform .6s var(--ease-out); transition-delay: calc(var(--i, 0) * 60ms); }
+  .js .reveal.in { opacity: 1; transform: none; }
+  .hero h1, .hero .lede, .hero .ctas, .hero-art .room, .hero-art figure { animation: rise .8s var(--ease-out) both; }
+  .hero h1 { animation-delay: .08s; }
+  .hero .lede { animation-delay: .16s; }
+  .hero .ctas { animation-delay: .24s; }
+  .hero-art .room { animation-delay: .12s; }
+  .hero-art figure { animation: drop .9s var(--ease-out) .38s both; }
+  @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  @keyframes drop { from { opacity: 0; transform: translateY(18px) rotate(-7deg); } to { opacity: 1; transform: rotate(-3deg); } }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Café de Fred, back to top">Café de&nbsp;<em>Fred</em></a>
+    <span class="status" id="status" role="status"><span>Mon to Sat</span></span>
+    <ul class="nav-links">
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#story">Story</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#visit">Visit</a></li>
+    </ul>
+    <a class="btn btn-primary btn-sm" href="https://wa.me/447960722425?text=Hi%20Fred%2C%20I%27d%20like%20to%20book%20a%20table" target="_blank" rel="noopener" aria-label="WhatsApp Fred">
+      <img src="https://cdn.simpleicons.org/whatsapp/ffffff" alt="" width="18" height="18">WhatsApp
+    </a>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap">
+      <div>
+        <h1 id="hero-title">A proper breakfast. <span class="red">A warm hello.</span></h1>
+        <p class="lede">Full English, French crêpes and jacket potatoes, from a family team who greet you at the door.</p>
+        <div class="ctas">
+          <a class="btn btn-primary" href="https://wa.me/447960722425?text=Hi%20Fred%2C%20I%27d%20like%20to%20book%20a%20table" target="_blank" rel="noopener">
+            <img src="https://cdn.simpleicons.org/whatsapp/ffffff" alt="" width="18" height="18">Book on WhatsApp
+          </a>
+          <a class="btn btn-ghost" href="#menu">See the menu</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img class="room" src="image/room-1200.jpg" srcset="image/room-720.jpg 720w, image/room-1200.jpg 1200w" sizes="(min-width: 960px) 44vw, 80vw" width="1200" height="1600" alt="Inside Café de Fred: red and blue diner chairs, pine tables, a brick wall and the counter of homemade food" fetchpriority="high">
+        <figure>
+          <img src="image/7.jpg" width="295" height="300" alt="Full English breakfast with fried eggs, sausage, bacon, beans, mushrooms, tomato and hash browns">
+          <figcaption>Full English, £12.50</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <div class="facts">
+    <div class="wrap">
+      <a class="fact" href="https://maps.app.goo.gl/B7uVRR8qH3tuVngc6" target="_blank" rel="noopener">
+        <i class="ph ph-star" aria-hidden="true"></i>
+        <div><strong>4.8 on Google</strong><span>from 748 reviews</span></div>
+      </a>
+      <div class="fact">
+        <i class="ph ph-clock" aria-hidden="true"></i>
+        <div><strong>Open from 7am</strong><span>Mon to Sat, closed Sundays</span></div>
+      </div>
+      <a class="fact" href="#visit">
+        <i class="ph ph-map-pin" aria-hidden="true"></i>
+        <div><strong>10A Earls Court Road</strong><span>Kensington, London W8 6EA</span></div>
+      </a>
+    </div>
+  </div>
+
+  <section class="story" id="story" aria-labelledby="story-title">
+    <div class="wrap">
+      <div class="story-pics reveal">
+        <img class="a" src="image/interior.jpg" width="400" height="300" loading="lazy" alt="The café counter and front window, with pendant lights and chalkboard menus">
+        <img class="b" src="image/interior%204.jpg" width="225" height="300" loading="lazy" alt="Coffee machine under the chalkboard menus">
+        <img class="c" src="image/outerior.jpg" width="225" height="300" loading="lazy" alt="The red Café de Fred awning on Earls Court Road">
+      </div>
+      <div class="reveal" style="--i:1">
+        <h2 class="h2" id="story-title">Fred will probably say hello first.</h2>
+        <p class="body">Guests mention it again and again: Fred out front with a warm welcome, a quick chat, then a table inside by the brick wall. The portions are filling, and the team will happily push two tables together for a group.</p>
+        <blockquote>Family friendly atmosphere, great service and food, Fred is a great host!<cite>Highlighted by Google from guest reviews</cite></blockquote>
+        <p class="todo"><b>Placeholder:</b> Fred's own story. When the café opened, where the name comes from and who runs it with him.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="dishes" aria-labelledby="dishes-title">
+    <div class="wrap">
+      <h2 class="h2" id="dishes-title">What people come back for</h2>
+      <p class="intro">The plates guests photograph most, at menu prices.</p>
+      <div class="dish-grid">
+        <article class="dish reveal">
+          <div class="ph-wrap"><img src="image/1.jpg" width="225" height="300" loading="lazy" alt="Full English breakfast with eggs, sausage, bacon, beans, mushroom and toast"></div>
+          <div class="meta"><div><h3>Full English Breakfast</h3><p>Two free-range eggs, bacon, sausage, beans, mushrooms, tomato, hash browns and toast.</p></div><span class="price">£12.50</span></div>
+        </article>
+        <article class="dish reveal" style="--i:1">
+          <div class="ph-wrap"><img src="image/4.jpg" width="400" height="300" loading="lazy" alt="Eggs Benedict with ham and hollandaise beside a full English"></div>
+          <div class="meta"><div><h3>Eggs Benedict</h3><p>Two poached eggs and ham on English muffins with hollandaise.</p></div><span class="price">£10.00</span></div>
+        </article>
+        <article class="dish reveal">
+          <div class="ph-wrap"><img src="image/5.jpg" width="400" height="300" loading="lazy" alt="Scrambled eggs on toast with smoked salmon"></div>
+          <div class="meta"><div><h3>Smoked Salmon &amp; Scrambled Eggs</h3></div><span class="price">£10.50</span></div>
+        </article>
+        <article class="dish reveal" style="--i:1">
+          <div class="ph-wrap"><img src="image/10.jpg" width="225" height="300" loading="lazy" alt="Omelette with toast and a hash brown"></div>
+          <div class="meta"><div><h3>Omelette</h3><p>Two fillings, with salad or hash brown and toast.</p></div><span class="price">£9.50</span></div>
+        </article>
+        <article class="dish reveal" style="--i:2">
+          <div class="ph-wrap"><img src="image/8.jpg" width="339" height="300" loading="lazy" alt="Waffle topped with strawberries, chocolate sauce and icing sugar"></div>
+          <div class="meta"><div><h3>Strawberry Waffle</h3><p>Strawberries, chocolate drizzle and icing sugar.</p></div><span class="price ask">Ask in café</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu" id="menu" aria-labelledby="menu-title">
+    <div class="wrap">
+      <div class="menu-head">
+        <div>
+          <h2 class="h2" id="menu-title">The menu</h2>
+          <p class="intro">Eat in or take away. Where a price isn't listed, the team will tell you at the counter.</p>
+        </div>
+      </div>
+
+      <div class="tabs">
+        <div class="tablist" role="tablist" aria-label="Menu sections">
+          <button class="tab" role="tab" id="t-breakfast" aria-controls="p-breakfast" aria-selected="true">Breakfast</button>
+          <button class="tab" role="tab" id="t-lunch" aria-controls="p-lunch" aria-selected="false" tabindex="-1">Lunch</button>
+          <button class="tab" role="tab" id="t-crepes" aria-controls="p-crepes" aria-selected="false" tabindex="-1">Crêpes &amp; Galettes</button>
+          <button class="tab" role="tab" id="t-drinks" aria-controls="p-drinks" aria-selected="false" tabindex="-1">Drinks</button>
+        </div>
+      </div>
+
+      <div class="panel" id="p-breakfast" role="tabpanel" aria-labelledby="t-breakfast" tabindex="0">
+        <div class="groups">
+          <div class="group">
+            <h3>Cooked breakfasts</h3>
+            <ul class="items">
+              <li class="item"><span class="name">Full English Breakfast</span><span class="price">£12.50</span><span class="desc">2 free-range eggs, 2 rashers of bacon, sausage, baked beans, woodland mushrooms, tomato, 2 hash browns &amp; toast</span></li>
+              <li class="item"><span class="name">Veggie Breakfast<span class="v" title="Vegetarian">V</span></span><span class="price">£11.00</span><span class="desc">2 free-range eggs, veggie sausage, baked beans, woodland mushrooms, tomato, hash brown, toast &amp; spinach</span></li>
+              <li class="item"><span class="name">Healthy Breakfast</span><span class="price">£10.50</span><span class="desc">2 free-range poached eggs, wholemeal toast, grilled tomato, avocado &amp; spinach</span></li>
+              <li class="item"><span class="name">Continental</span><span class="price">£9.00</span><span class="desc">French croissant with butter &amp; preserves, 2 slices of toast, cheddar &amp; ham, with tea or coffee</span></li>
+              <li class="item"><span class="name">Omelette</span><span class="price">£9.50</span><span class="desc">With seasonal salad or hash brown &amp; toast. Choose 2: ham, bacon, chicken, cheese, mushroom, tomato, onion</span></li>
+              <li class="item"><span class="name">Traditional Organic Porridge</span><span class="price">£5.00</span><span class="desc">Add apple, blueberries, raspberries or banana, £1 each</span></li>
+            </ul>
+          </div>
+          <div class="group">
+            <h3>Eggs</h3>
+            <ul class="items">
+              <li class="item"><span class="name">Eggs Benedict</span><span class="price">£10.00</span><span class="desc">2 poached eggs &amp; ham on English muffins with hollandaise</span></li>
+              <li class="item"><span class="name">Eggs Florentine</span><span class="price">£10.00</span><span class="desc">2 poached eggs on English muffins with spinach &amp; hollandaise</span></li>
+              <li class="item"><span class="name">Eggs Royale</span><span class="price">£10.50</span><span class="desc">2 poached eggs on English muffins with salmon &amp; hollandaise</span></li>
+              <li class="item"><span class="name">Smoked Salmon &amp; Scrambled Eggs</span><span class="price">£10.50</span></li>
+              <li class="item"><span class="name">Scrambled Eggs on Toast</span><span class="price">£7.20</span><span class="desc">3 eggs</span></li>
+            </ul>
+            <h3 style="margin-top:40px">Breakfast sandwiches</h3>
+            <ul class="items">
+              <li class="item"><span class="name">1 filling</span><span class="price">£4.25</span></li>
+              <li class="item"><span class="name">2 fillings</span><span class="price">£4.75</span></li>
+              <li class="item"><span class="name">3 fillings</span><span class="price">£5.20</span></li>
+            </ul>
+            <p class="note">Free-range eggs (fried or scrambled), sausage, mushrooms, hash brown, bacon, tomato, cheese.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" id="p-lunch" role="tabpanel" aria-labelledby="t-lunch" tabindex="0" hidden>
+        <div class="groups">
+          <div class="group">
+            <h3>Jacket potatoes <small>with seasonal salad</small></h3>
+            <ul class="items">
+              <li class="item"><span class="name">Cheddar Cheese</span><span class="price">£6.80</span></li>
+              <li class="item"><span class="name">Coronation Chicken</span><span class="price">£7.50</span></li>
+              <li class="item"><span class="name">Tuna &amp; Sweetcorn</span><span class="price">£7.90</span></li>
+              <li class="item"><span class="name">Cheese &amp; Beans</span><span class="price">£7.95</span></li>
+              <li class="item"><span class="name">Homemade Chilli con Carne</span><span class="price">£8.50</span></li>
+              <li class="item"><span class="name">Chicken Curry</span><span class="price">£8.50</span></li>
+              <li class="item"><span class="name">Meatballs</span><span class="price">£8.50</span></li>
+            </ul>
+            <p class="note">Extra fillings £1.50 each: ham, chicken, sausage, bacon, mushroom, sweetcorn, red onion, roasted vegetables.</p>
+          </div>
+          <div class="group">
+            <h3>Salads</h3>
+            <ul class="items">
+              <li class="item"><span class="name">Greek Salad<span class="v" title="Vegetarian">V</span></span><span class="price">£7.00</span><span class="desc">Feta, olives, cucumber, red onion, lemon &amp; olive oil</span></li>
+              <li class="item"><span class="name">Tuna Niçoise</span><span class="price">£7.50</span><span class="desc">Tuna, black olives, onion, green beans &amp; egg with French dressing</span></li>
+              <li class="item"><span class="name">Chicken Caesar Salad</span><span class="price">£7.50</span><span class="desc">Lettuce, parmesan, croutons &amp; anchovies</span></li>
+            </ul>
+            <h3 style="margin-top:40px">Baguettes</h3>
+            <ul class="items">
+              <li class="item"><span class="name">Tuna Salad</span><span class="price">£6.70</span></li>
+              <li class="item"><span class="name">Coronation Chicken &amp; Cheese</span><span class="price">£6.70</span></li>
+              <li class="item"><span class="name">Chicken Tikka</span><span class="price">£6.70</span></li>
+              <li class="item"><span class="name">Ham &amp; Cheese</span><span class="price">£6.70</span></li>
+            </ul>
+          </div>
+          <div class="group">
+            <h3>Hot paninis</h3>
+            <ul class="chips">
+              <li>Chicken Escalope &amp; Cheese</li><li>Tuna, Sweetcorn &amp; Cheese</li><li>Ham &amp; Cheese</li><li>Mixed Vegetables &amp; Halloumi</li>
+            </ul>
+            <p class="note">Price in café.</p>
+          </div>
+          <div class="group">
+            <h3>Sandwiches &amp; bagels</h3>
+            <p class="note">On a baguette, sandwich bread or bagel. Price in café.</p>
+            <ul class="chips">
+              <li>Chicken Tarragon</li><li>Mexican Tuna</li><li>Rocket &amp; Tomato</li><li>Mozzarella &amp; Roasted Veg</li><li>Smoked Salmon &amp; Cream Cheese</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" id="p-crepes" role="tabpanel" aria-labelledby="t-crepes" tabindex="0" hidden>
+        <div class="groups">
+          <div class="group">
+            <h3>Galettes <small>savoury buckwheat crêpes</small></h3>
+            <ul class="items">
+              <li class="item"><span class="name">Traditionnelle</span><span class="price ask">Price in café</span><span class="desc">Ham &amp; cheese</span></li>
+              <li class="item"><span class="name">Fermier</span><span class="price ask">Price in café</span><span class="desc">Ham, cheese &amp; mushrooms</span></li>
+              <li class="item"><span class="name">Complète</span><span class="price ask">Price in café</span><span class="desc">Turkey bacon, cheese &amp; egg</span></li>
+              <li class="item"><span class="name">Pêcheur</span><span class="price ask">Price in café</span><span class="desc">Smoked salmon, cream cheese, chives, egg &amp; spinach</span></li>
+              <li class="item"><span class="name">Végétarienne<span class="v" title="Vegetarian">V</span></span><span class="price ask">Price in café</span><span class="desc">Mushrooms, tomatoes, cheese, red onion &amp; spinach</span></li>
+              <li class="item"><span class="name">Feta<span class="v" title="Vegetarian">V</span></span><span class="price ask">Price in café</span><span class="desc">Feta, sun-dried tomatoes, pesto &amp; olives</span></li>
+              <li class="item"><span class="name">Veggie Complète<span class="v" title="Vegetarian">V</span></span><span class="price ask">Price in café</span><span class="desc">Cheese, mushrooms, spinach, egg &amp; caramelised onions</span></li>
+              <li class="item"><span class="name">Poulet Harissa</span><span class="price ask">Price in café</span><span class="desc">Roast chicken, mixed peppers, potatoes &amp; red onion in harissa sauce (spicy)</span></li>
+            </ul>
+          </div>
+          <div class="group">
+            <h3>Sweet crêpes</h3>
+            <ul class="items">
+              <li class="item"><span class="name">Lemon &amp; Sugar</span><span class="price ask">Price in café</span></li>
+              <li class="item"><span class="name">Nutella</span><span class="price ask">Price in café</span></li>
+              <li class="item"><span class="name">Strawberries or Banana</span><span class="price ask">Price in café</span></li>
+              <li class="item"><span class="name">Lotus Spread with Biscuits</span><span class="price ask">Price in café</span></li>
+            </ul>
+            <p class="note">Add an extra filling or a scoop of ice cream: milk chocolate, white chocolate, maple syrup, honey, Biscoff, peanut butter or whipped cream.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" id="p-drinks" role="tabpanel" aria-labelledby="t-drinks" tabindex="0" hidden>
+        <div class="groups">
+          <div class="group">
+            <h3>Coffee</h3>
+            <ul class="chips">
+              <li>Espresso</li><li>Double Espresso</li><li>Macchiato</li><li>Double Macchiato</li><li>Americano</li><li>Latte</li><li>Cappuccino</li><li>Flat White</li><li>Mocha</li>
+            </ul>
+            <h3 style="margin-top:36px">Tea &amp; hot chocolate</h3>
+            <ul class="chips">
+              <li>Tea</li><li>Pot of Tea</li><li>Fresh Mint Tea Pot</li><li>Herbal Tea</li><li>Hot Chocolate</li><li>Hot Chocolate with Cream &amp; Marshmallows</li>
+            </ul>
+            <p class="note">Teas: Earl Grey, breakfast, peppermint, green, lemon &amp; ginger, chamomile.</p>
+          </div>
+          <div class="group">
+            <h3>Juices</h3>
+            <ul class="chips">
+              <li>Orange</li><li>Apple</li><li>Carrot &amp; Ginger</li><li>Apple &amp; Celery</li><li>Tropical Fruits</li><li>Forest Fruits</li>
+            </ul>
+            <h3 style="margin-top:36px">Milkshakes &amp; smoothies</h3>
+            <ul class="chips">
+              <li>Banana</li><li>Vanilla</li><li>Strawberry</li><li>Chocolate</li><li>Peanut Butter</li><li>Salted Caramel</li><li>Oreo</li><li>Mango Smoothie</li>
+            </ul>
+          </div>
+        </div>
+        <p class="menu-foot">Drink prices are on the board in the café.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="board" aria-labelledby="board-title">
+    <div class="wrap">
+      <div class="board-card reveal">
+        <img src="image/board.jpg" width="1000" height="1000" loading="lazy" alt="The café's handwritten whiteboard of homemade specials beside the food counter">
+        <div class="board-body">
+          <h2 class="h2" id="board-title">Today's board</h2>
+          <p>Homemade specials go up on the whiteboard by the counter and change through the year. These were on it recently.</p>
+          <ul class="specials">
+            <li><span>Homemade Quiche Lorraine &amp; mixed salad</span><span class="price">£8.50</span></li>
+            <li><span>Pizza (pepperoni, tuna or mixed veg) &amp; salad</span><span class="price">£8.50</span></li>
+            <li><span>Meatballs &amp; penne with a drink</span><span class="price">£13.00</span></li>
+            <li><span>Homemade beef lasagne &amp; salad</span><span class="price ask">Ask in café</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pins" id="reviews" aria-labelledby="reviews-title">
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <h2 class="h2" id="reviews-title">Visiting London? Leave a pin.</h2>
+          <p class="intro">There's a world map on the wall. Guests from all over mark their home country on it before they leave.</p>
+        </div>
+        <div class="score"aria-label="Rated 4.8 out of 5 from 748 Google reviews">
+          <strong>4.8</strong>
+          <div class="stars" aria-hidden="true">★★★★★</div>
+          <span>748 Google reviews</span>
+        </div>
+      </div>
+      <div class="reviews">
+        <figure class="review reveal">
+          <blockquote>“Fred gave us a warm welcoming right outside the café and, after a quick chat, took us inside for breakfast.”</blockquote>
+          <figcaption>Simon Herden<span>Google review</span></figcaption>
+        </figure>
+        <figure class="review reveal" style="--i:1">
+          <blockquote>“The staff were very friendly and even joined two tables together for us so we could sit comfortably.”</blockquote>
+          <figcaption>Klaudia<span>Local Guide, Google review</span></figcaption>
+        </figure>
+        <figure class="review reveal" style="--i:2">
+          <blockquote>“Had a warm welcome from a young gentleman called Ray… I felt at home in my local cafe.”</blockquote>
+          <figcaption>Raha<span>Local Guide, Google review</span></figcaption>
+        </figure>
+      </div>
+      <a class="reviews-link" href="https://maps.app.goo.gl/B7uVRR8qH3tuVngc6" target="_blank" rel="noopener">Read all 748 reviews on Google <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+    </div>
+  </section>
+
+  <section class="gallery" aria-labelledby="gallery-title">
+    <div class="wrap">
+      <h2 class="h2" id="gallery-title">Inside the café</h2>
+      <div class="gal">
+        <figure class="t w reveal"><img src="image/interior%202.jpg" width="225" height="300" loading="lazy" alt="Cream armchairs and a pine table in front of the deli counter"></figure>
+        <figure class="t reveal" style="--i:1"><img src="image/11.jpg" width="225" height="300" loading="lazy" alt="Strawberry and blueberry fruit tarts on the counter"></figure>
+        <figure class="reveal" style="--i:2"><img src="image/6.jpg" width="400" height="300" loading="lazy" alt="Bottles of Fred's Press juices in front of a crate of oranges"></figure>
+        <figure class="reveal" style="--i:3"><img src="image/2.jpg" width="225" height="300" loading="lazy" alt="Homemade quiches with cherry tomatoes, spinach and feta"></figure>
+        <figure class="w reveal"><img src="image/9.jpg" width="400" height="225" loading="lazy" alt="Close-up of scrambled eggs with parsley"></figure>
+        <figure class="w reveal" style="--i:1"><img src="image/4.jpg" width="400" height="300" loading="lazy" alt="Eggs Benedict and a full English with a fresh juice"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="visit" id="visit" aria-labelledby="visit-title">
+    <div class="wrap">
+      <div>
+        <h2 class="h2" id="visit-title">Come and find us</h2>
+        <address class="addr">10A Earls Court Road<br>Kensington, London W8 6EA</address>
+        <table class="hours" id="hours">
+          <caption>Opening hours</caption>
+          <tbody>
+            <tr data-day="1"><th scope="row">Monday</th><td>7am to 5pm</td></tr>
+            <tr data-day="2"><th scope="row">Tuesday</th><td>7am to 5pm</td></tr>
+            <tr data-day="3"><th scope="row">Wednesday</th><td>7am to 5pm</td></tr>
+            <tr data-day="4"><th scope="row">Thursday</th><td>7am to 5pm</td></tr>
+            <tr data-day="5"><th scope="row">Friday</th><td>7am to 5pm</td></tr>
+            <tr data-day="6"><th scope="row">Saturday</th><td>8am to 5pm</td></tr>
+            <tr data-day="0"><th scope="row">Sunday</th><td>Closed</td></tr>
+          </tbody>
+        </table>
+        <div class="ctas">
+          <a class="btn btn-primary" href="https://maps.app.goo.gl/B7uVRR8qH3tuVngc6" target="_blank" rel="noopener"><i class="ph ph-navigation-arrow" aria-hidden="true"></i>Get directions</a>
+          <a class="btn btn-ghost" href="tel:+447960722425"><i class="ph ph-phone" aria-hidden="true"></i>07960 722425</a>
+        </div>
+      </div>
+      <div class="map reveal">
+        <iframe title="Map showing Café de Fred at 10A Earls Court Road, London" src="https://www.google.com/maps?q=Cafe+de+Fred,+10A+Earls+Ct+Rd,+London+W8+6EA&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <h2>Pull up a red chair.</h2>
+        <p>Breakfast from 7am, Monday to Saturday. Message Fred to book a table for a group.</p>
+        <div class="ctas">
+          <a class="btn btn-primary" href="https://wa.me/447960722425?text=Hi%20Fred%2C%20I%27d%20like%20to%20book%20a%20table" target="_blank" rel="noopener"><img src="https://cdn.simpleicons.org/whatsapp/ffffff" alt="" width="18" height="18">Book on WhatsApp</a>
+        </div>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="tel:+447960722425"><i class="ph ph-phone" aria-hidden="true"></i>07960 722425</a></li>
+          <li><a href="https://wa.me/447960722425" target="_blank" rel="noopener"><img src="https://cdn.simpleicons.org/whatsapp/B7BDD0" alt="" width="18" height="18">WhatsApp</a></li>
+          <li><a href="https://www.facebook.com/cafedefred/" target="_blank" rel="noopener"><img src="https://cdn.simpleicons.org/facebook/B7BDD0" alt="" width="18" height="18">Facebook</a></li>
+          <li><a href="https://maps.app.goo.gl/B7uVRR8qH3tuVngc6" target="_blank" rel="noopener"><i class="ph ph-map-pin" aria-hidden="true"></i>Google Maps</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>On this page</h3>
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#story">Our story</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#visit">Hours &amp; map</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="wordmark" aria-hidden="true">Café de <em>Fred</em></p>
+    <div class="legal">
+      <span>© <span id="year">2026</span> Café de Fred, 10A Earls Court Road, London W8 6EA</span>
+      <a href="#top">Back to top</a>
+    </div>
+  </div>
+</footer>
+
+<nav class="bar" id="bar" aria-label="Quick contact">
+  <a class="btn btn-primary" href="https://wa.me/447960722425?text=Hi%20Fred%2C%20I%27d%20like%20to%20book%20a%20table" target="_blank" rel="noopener"><img src="https://cdn.simpleicons.org/whatsapp/ffffff" alt="" width="18" height="18">WhatsApp</a>
+  <a class="btn btn-ghost" href="tel:+447960722425"><i class="ph ph-phone" aria-hidden="true"></i>Call</a>
+</nav>
+
+<script>
+(function () {
+  document.documentElement.classList.add('js');
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Open / closed, worked out in London time
+  var HOURS = { 0: null, 1: [7, 17], 2: [7, 17], 3: [7, 17], 4: [7, 17], 5: [7, 17], 6: [8, 17] };
+  var DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  function london() {
+    var parts = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/London', weekday: 'short', hour: 'numeric', minute: 'numeric', hour12: false }).formatToParts(new Date());
+    var get = function (t) { return (parts.find(function (p) { return p.type === t; }) || {}).value; };
+    var day = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(get('weekday'));
+    return { day: day, mins: (+get('hour') % 24) * 60 + (+get('minute')) };
+  }
+  function fmt(h) { return h > 12 ? (h - 12) + 'pm' : h + 'am'; }
+  function nextOpen(day) {
+    for (var i = 1; i <= 7; i++) { var d = (day + i) % 7; if (HOURS[d]) return (i === 1 ? 'tomorrow' : DAYS[d]) + ' ' + fmt(HOURS[d][0]); }
+  }
+  function updateStatus() {
+    var now = london(), h = HOURS[now.day], el = document.getElementById('status');
+    var open = h && now.mins >= h[0] * 60 && now.mins < h[1] * 60;
+    el.classList.toggle('open', !!open);
+    if (open) el.innerHTML = '<span>Open now<span class="long">, until ' + fmt(h[1]) + '</span></span>';
+    else if (h && now.mins < h[0] * 60) el.innerHTML = '<span>Opens ' + fmt(h[0]) + '<span class="long"> today</span></span>';
+    else el.innerHTML = '<span>Closed<span class="long">, opens ' + nextOpen(now.day) + '</span></span>';
+    var row = document.querySelector('#hours tr[data-day="' + now.day + '"]');
+    if (row) row.classList.add('today');
+  }
+  updateStatus();
+  setInterval(updateStatus, 60000);
+
+  // Menu tabs (WAI-ARIA tabs pattern)
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('[role="tab"]'));
+  function select(tab, focus) {
+    tabs.forEach(function (t) {
+      var on = t === tab, panel = document.getElementById(t.getAttribute('aria-controls'));
+      t.setAttribute('aria-selected', on);
+      t.tabIndex = on ? 0 : -1;
+      panel.hidden = !on;
+      if (on) { panel.classList.remove('enter'); void panel.offsetWidth; panel.classList.add('enter'); }
+    });
+    if (focus) tab.focus();
+    tab.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+  }
+  tabs.forEach(function (tab, i) {
+    tab.addEventListener('click', function () { select(tab); });
+    tab.addEventListener('keydown', function (e) {
+      var n = { ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: tabs.length - 1 }[e.key];
+      if (n === undefined) return;
+      e.preventDefault();
+      select(tabs[(n + tabs.length) % tabs.length], true);
+    });
+  });
+
+  // Nav border, mobile bar and scroll reveals
+  var nav = document.querySelector('.nav'), bar = document.getElementById('bar');
+  var hero = document.querySelector('.hero'), foot = document.querySelector('.foot');
+  var heroGone = false, footIn = false;
+  function syncBar() { bar.classList.toggle('show', heroGone && !footIn); }
+  new IntersectionObserver(function (e) {
+    heroGone = !e[0].isIntersecting; nav.classList.toggle('is-stuck', heroGone || e[0].intersectionRatio < 1); syncBar();
+  }, { threshold: [0, .2, 1], rootMargin: '-68px 0px 0px 0px' }).observe(hero);
+  new IntersectionObserver(function (e) { footIn = e[0].isIntersecting; syncBar(); }).observe(foot);
+
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+  }, { rootMargin: '0px 0px -8% 0px' });
+  document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+})();
+</script>
+</body>
+</html>
